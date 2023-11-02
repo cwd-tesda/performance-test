@@ -1,0 +1,345 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  
+}
+.logo img{
+  height: 200px;
+  width: 200px;
+  margin-top: 0px;
+  
+}
+
+.sidebar{
+  width: 250px;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  justify-content: center;
+  border-right: 1px solid white;
+}
+.button{
+  margin-top: 20%;
+}
+.button a{
+  display: block;
+  margin-top: 10%;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  
+  
+
+}
+.button a:hover{
+  color: orange;
+  border-left: 5px solid orange;
+  
+}
+.button a:active{
+  color: orange;
+  border-left: 5px solid orange;
+  
+}
+/*-------------------Home Section -------*/
+#home{
+  height: 100vh;
+  width: 100%;
+  background-color:black;
+}
+.pictures{
+  display: inline-block;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 200px;
+}
+.pictures h1{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+}
+.pictures img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: -15px;
+  cursor: pointer;
+  border: 1px solid black;
+  
+}
+.pictures img:hover{
+  border: 1px solid white;
+}
+/*-------------------section of henrey resume -------*/
+#henrey{
+  height: 110%;
+  width: auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: white;
+  
+}
+/*-------------------section of paulo resume -------*/
+#paulo{
+  height: 110%;
+  width: auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: white;
+  
+}
+/*-------------------section of rose anne resume -------*/
+#roseanne{
+  height: 120%;
+  width: auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: white;
+  
+}
+/*-------------------section of fritz resume -------*/
+#fritz{
+  height: 120%;
+  width: auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: white;
+  
+}
+/*-------------------section of  joel resume -------*/
+#joel{
+  height: 110%;
+  width: auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: white;
+  
+}
+
+.box{
+            
+  background-color: black;
+  padding: 70px 100px;
+  border-radius: 5px;
+  width: 680px;
+  height: 1000px;
+}
+.container{
+  display: flex;
+}
+.image img{
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+}
+.name{
+  margin-top: 30px;
+  margin-left: 40px;
+  line-height: 0.1;
+}
+.name p{
+  font-size: 40px;
+  color: gray;
+
+  
+}
+.name h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 50px;
+
+}
+.contacts{
+  margin-left: 150px;
+  margin-top: 1%;
+  
+}
+.contacts ul li{
+  margin-top: 10px;
+  list-style: none;
+  font-size: 13px;
+  color: #333333;
+  padding-left: 20px;
+
+ 
+}
+.contacts ul li p{
+  margin-left: 20px;
+  margin-top: -15px;
+  color: white;
+}
+.contacts ul li .fa{
+  padding-left: -20px;
+  color: white;
+}
+.about-experience{
+  margin-left: -650px;
+  margin-top: 180px;
+  display: flex;
+  font-size: 13px;
+}
+.about-experience .aboutme h2{
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: #333333;
+  font-weight: 500;
+  color: white;
+}
+.about-experience .workexp{
+  margin-left: 50px;
+  
+}
+.about-experience .workexp h2{
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: white;
+}
+.about-experience .workexp .hr{
+  width: 400px;
+  height: 2px;
+  margin-top: 0px;
+  background-color: orange;
+
+}
+.about-experience .aboutme .hr{
+  width: 200px;
+  height: 2px;
+  background-color: orange;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.about-experience .container{
+  border-left: 1px solid white;
+  padding-left: 15px;
+  
+  margin-top: 1px;
+  letter-spacing: 1px;
+
+}
+.about-experience .container p{
+  margin-top: -20px;
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+}
+.circle{
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-left: -8px;
+  justify-content: center;
+  display: flex;
+  
+}
+.circle .circles{
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  margin-top: 5px;
+  
+}
+.workexp{
+  padding-left: 23px;
+}
+.workexp .container{
+  margin-top: 30px;
+  padding-top: 30px;
+  
+}
+
+.workexp .circle{
+  margin-top: 30px;
+  margin-bottom: -28px;
+}
+.workexp .container .title{
+  position: absolute;
+
+  margin-top: -50px;
+}
+.education{
+  margin-top: 230px;
+  margin-left: 275px;
+  position: absolute;
+}
+.education .hr{
+  width: 400px;
+  height: 2px;
+  background-color: orange;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.education h2{
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.education .container .title{
+  position: absolute;
+
+  margin-top: -50px;
+}
+.education .container {
+  padding-top: 30px;
+}
+
+.skills{
+  position: absolute;
+  font-weight: 300;
+  margin-top: 570px;
+  margin-left: 278px;
+}
+.skills h2{
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.skills .hr{
+  width: 400px;
+  height: 2px;
+  background-color: orange;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.skills .boxs{
+  margin-left: -25px;
+}
+.skills .boxs .list-skill ul{
+  display: inline-block;
+  margin-left: 50px;
+}
+.skills .boxs .list-skill ul li{
+  margin-top: 5px;
+}
