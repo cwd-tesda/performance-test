@@ -75,7 +75,7 @@ html{
 }
 .pictures img:hover{
   border: 1px solid white;
-  box-shadow: 1px 1px 10px black ;
+  box-shadow: 1px 1px 5px black ;
 }
 /*-------------------section of henrey resume -------*/
 #henrey{
