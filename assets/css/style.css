@@ -43,11 +43,7 @@ html{
   border-left: 5px solid orange;
   
 }
-.button a:active{
-  color: orange;
-  border-left: 5px solid orange;
-  
-}
+
 /*-------------------Home Section -------*/
 #home{
   height: 100vh;
